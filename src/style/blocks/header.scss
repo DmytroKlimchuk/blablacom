@@ -1,0 +1,83 @@
+
+.logo {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.logo__link {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo img {
+  max-width: 235px;
+  height: auto;
+}
+
+.search-box {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.form--search {
+  position: relative;
+}
+
+.form__text {
+  border: 1px solid #dc696b;
+  background-color: #fff;
+  outline: none;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.form--search .form__text {
+  width: 100%;
+  padding-left: 53px;
+  margin-bottom: 0;
+}
+
+.form__button {
+  outline: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.form--search .form__button--search {
+  background-image: url("../img/search.png");
+  background-color: transparent;
+  height: 29px;
+  width: 29px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.phone-info {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.phone-info__text {
+  font-family: CenturyGothic;
+  color: #fff;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 0;
+}
+
+
+@media ($tablet-width) {
+
+
+}
+
+@media ($desktop-width) {
+
+
+}

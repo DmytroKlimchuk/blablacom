@@ -1,0 +1,24 @@
+body {
+  font-family: CenturyGothic;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding:  0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container-fluid--red {
+  background-color: #d34346;
+  margin-bottom: 10px; /* тимчасове рішення до появи сітки */
+}
+
+.container-fluid--border {
+  border-bottom: 11px solid #bd2d30;
+}

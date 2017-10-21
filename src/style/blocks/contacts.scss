@@ -1,0 +1,102 @@
+
+.contact {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.contact-form {
+
+}
+
+.contact__title {
+  color: #feffff;
+  font-size: 27px;
+  font-weight: 200;
+  line-height: 32px;
+  text-transform: uppercase;
+  border-bottom: 2px solid  #efefef;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.contact-form__title {
+}
+
+.form__text {
+  width: 100%;
+  margin-bottom: 29px;
+}
+
+.contact-us {
+
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: #777777;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.form__textarea {
+  padding: 15px 20px;
+  min-height: 191px;
+  border: 1px solid #dc696b;
+  width: 100%;
+  margin-bottom: 29px;
+}
+
+.btn {
+  background-color: #314559;
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding: 16px 0;
+  display: block;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.social {
+
+}
+
+.social__link {
+  display: inline-block;
+  margin-right: 20px;
+  width: 54px;
+  height: 54px;
+  text-indent: -9999px;
+  vertical-align: middle;
+}
+
+.social__link--fb {
+  background-image: url('../img/facebook-logo-button.png');
+}
+
+.social__link--tw {
+  background-image: url('../img/twitter-logo-button.png');
+}
+.social__link--inst {
+  background-image: url('../img/instagram.png');
+  width: 57px;
+  height: 57px;
+}
+
+
+@media ($tablet-width) {
+
+
+}
+
+@media ($desktop-width) {
+
+
+}
