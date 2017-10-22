@@ -16,9 +16,18 @@ body {
 
 .container-fluid--red {
   background-color: #d34346;
-  margin-bottom: 10px; /* тимчасове рішення до появи сітки */
+}
+
+.container-fluid--grey {
+  background-color: #efefef;
 }
 
 .container-fluid--border {
   border-bottom: 11px solid #bd2d30;
+}
+
+.container-fluid--bg {
+  background: url("../img/slider_bg.jpg") no-repeat top center;
+  background-size: cover;
+  margin-bottom: 75px;
 }

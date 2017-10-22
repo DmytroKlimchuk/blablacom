@@ -1,0 +1,41 @@
+.features-list {
+  margin: 0 15px;
+}
+.features {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.features__item {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.features__item i {
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  color: #bd2c30;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 70px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: 1px solid #bd2c30;
+}
+
+.features__title {
+  font-size: 21px;
+  color: #bd2c30;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.features__text {
+  font-size: 13px;
+  line-height: 19px;
+  color: #212121;
+  text-align: left;
+}

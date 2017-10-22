@@ -68,13 +68,13 @@ gulp.task('html:build', function () {
 
 
 gulp.task('js:build', function () {
-    gulp.src(path.src.js) //Найдем наш main файл
-        .pipe(rigger()) //Прогоним через rigger
+  //  gulp.src(path.src.js) //Найдем наш main файл
+    //    .pipe(rigger()) //Прогоним через rigger
         //.pipe(gulpIf(isDev, sourcemaps.init())) //Инициализируем sourcemap
         //.pipe(uglify()) //Сожмем наш js
         //.pipe(gulpIf(isDev, sourcemaps.write())) //Пропишем карты
-        .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
-        .pipe(reload({stream: true})); //И перезагрузим сервер
+     //   .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
+     //   .pipe(reload({stream: true})); //И перезагрузим сервер
 });
 
 gulp.task('style:build', function () {
