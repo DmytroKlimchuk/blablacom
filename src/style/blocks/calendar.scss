@@ -1,0 +1,59 @@
+#calendar-box {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#calendar{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/* Days Wrapper */
+#calendar .c-days {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: separate;
+  border-top: none;
+
+}
+#calendar .c-days thead th{
+  width: 14.28%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding-bottom: 1px;
+}
+
+#calendar .c-days tbody tr td > span{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fefefe;
+  font-size: 14px;
+}
+#calendar .c-days tbody tr td.other-month > span{
+  display: none;
+}
+
+#calendar .c-days tbody tr td.today > span{
+  background-color: #d34346;
+  cursor: default;
+}
+
+#calendar .c-days tbody tr td.sunday > span{
+  color: #eb556e;
+}
+
+
+#calendar .c-days tbody tr td:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+#calendar  .c-days tbody tr td.other-month:hover{
+  cursor: default;
+}
+
