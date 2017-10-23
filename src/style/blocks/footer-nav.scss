@@ -1,0 +1,28 @@
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 23px 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.footer-nav li:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.footer-nav a {
+  display: inline-block;
+  color: #fff;
+  font-size: 19px;
+  line-height: 20px;
+}

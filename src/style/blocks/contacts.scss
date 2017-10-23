@@ -71,25 +71,20 @@
 }
 
 .social__link {
+  text-align: center;
   display: inline-block;
   margin-right: 20px;
   width: 54px;
   height: 54px;
-  text-indent: -9999px;
   vertical-align: middle;
+  background-color: #fff;
+  border-radius: 27px;
 }
 
-.social__link--fb {
-  background-image: url('../img/facebook-logo-button.png');
-}
-
-.social__link--tw {
-  background-image: url('../img/twitter-logo-button.png');
-}
-.social__link--inst {
-  background-image: url('../img/instagram.png');
-  width: 57px;
-  height: 57px;
+.social__link .fa {
+  font-size: 34px;
+  line-height: 54px;
+  color: #d34346;
 }
 
 
