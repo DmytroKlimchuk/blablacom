@@ -21,12 +21,17 @@
   margin-top: 10px;
 }
 
+
 .footer-keywords__more .fa-angle-down {
   position: absolute;
   top: 30px;
   left: 50%;
   margin-left: -10px;
   font-size: 25px;
+  transition: all 0.3s linear;
+}
+.footer-keywords__more:hover .fa-angle-down {
+  top: 20px;
 }
 
 .footer-keywords__more:hover {

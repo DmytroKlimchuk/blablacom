@@ -24,7 +24,6 @@
   background-color: #314559;
   padding: 10px 25px 20px;
   color: #fefefe;
-  min-height: 225px;
 }
 
 .widget__content ul {
@@ -32,8 +31,8 @@
 }
 
 .widget__content ul li {
-  font-size: 21px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .column {
@@ -83,4 +82,30 @@
   border: 1 px solid #9d444c;
   border-bottom: 0;
   padding: 6px 22px;
+}
+
+@media (min-width: $sm-width) {
+
+  .widget__content ul li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}
+
+@media (min-width: $md-width) {
+
+  .widget__content ul li {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+}
+@media (min-width: $md-width) {
+
+
+  .widget__content {
+    min-height: 285px;
+  }
+
 }
